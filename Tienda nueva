@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Belynda - Tienda Online Simple</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; background-color: #f0e6dc; color: #3f2e29; width: 100%; overflow: hidden;">
+
+<header style="background-color: #f0e6dc; border-bottom: 1px solid #d9c2b5; height: 80px; position: relative;">
+    <div style="position: absolute; left: 10px; top: 30px; font-weight: bold; font-size: 14px;">☰ Visita nuestra nueva tienda online</div>
+    <nav style="font-family: 'Inter Semi Bold';text-align: center; font-size: 30px; font-weight: bold; line-height: 80px; width: 93%;">Belynda</nav>
+
+    <aside style="position: absolute; right: 10px; top: 15px; width: 80px;">
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Perfil" style="width: 50px; height: 50px; margin-left: -300px;"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 50px; height: 50px; margin-left: -110px;"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 50px; height: 50px; margin-left: -120px;"></a>
+    </aside>
+</header>
+
+<div style="overflow: hidden;">
+    <nav id="menu-lateral" style="width: 200px; height: 100vh; float: left; border-right: 1px solid #d9c2b5; padding-top: 30px; background-color: #f0e6dc;">
+        <a href="#" style="display: block; background-color: #ede6e3;border-radius: 30px ; color: #3f2e29; text-decoration: none; margin: 10px auto; padding: 8px; width: 80%; border: 1px solid #d9c2b5; text-align: center; font-size: 14px;">Categorías</a>
+        <a href="#" style="display: block; background-color: #ede6e3;border-radius: 30px ; color: #3f2e29; text-decoration: none; margin: 10px auto; padding: 8px; width: 80%; border: 1px solid #d9c2b5; text-align: center; font-size: 14px;">Niñas</a>
+        <a href="#" style="display: block; background-color: #ede6e3;border-radius: 30px ; color: #3f2e29; text-decoration: none; margin: 10px auto; padding: 8px; width: 80%; border: 1px solid #d9c2b5; text-align: center; font-size: 14px;">Niños</a>
+        <a href="#" style="display: block; background-color: #ede6e3;border-radius: 30px ; color: #3f2e29; text-decoration: none; margin: 10px auto; padding: 8px; width: 80%; border: 1px solid #d9c2b5; text-align: center; font-size: 14px;">Juguetes</a>
+        <a href="#" style="display: block; background-color: #ede6e3;border-radius: 30px ; color: #3f2e29; text-decoration: none; margin: 10px auto; padding: 8px; width: 80%; border: 1px solid #d9c2b5; text-align: center; font-size: 14px;">Descuentos</a>
+        <a href="#" style="display: block; background-color: #ede6e3;border-radius: 30px ;color: #3f2e29; text-decoration: none; margin: 10px auto; padding: 8px; width: 80%; border: 1px solid #d9c2b5; text-align: center; font-size: 14px;">Catálogo</a>
+    </nav>
+
+    <main style="float: left; width: 70%; padding: 20px;">
+        <div id="barra-busqueda" style="float: right; width: 300px; border-radius: 20px; height: 30px; line-height: 30px; padding-left: 10px; background-color: #fcf8f6; margin-bottom: 20px; clear: right;">
+            Buscar...
+            <a href="#" style="float: right; margin-top: 3px;margin-right: 10px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg" alt="Buscar" style="width: 15px; height: 15px;">
+            </a>
+        </div>
+        <section style="clear: both; text-align: center; padding-top: -40px;">
+            <h2 style="font-size: 30px; margin-bottom: 40px;">Nuestros servicios</h2>
+            <article style="clear: both; width: 100%; overflow: hidden;">
+                <figure style="float: left; width: 29%; margin: 0 1.5%; padding: 10px; background-color: #9e827c; height: 450px;">
+                    <img src="https://img.kwcdn.com/product/open/2024-07-21/1721546493554-f675f155d82949f3879fdd15e916caa5-goods.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" alt="Producto 1" style="width: 90%; height: 350px; border: 1px solid #ffffff; padding: 3px; background-color: #ffffff;">
+                    <figcaption style="margin-top: 10px; font-weight: bold;">$18.000</figcaption>
+                </figure>
+
+                <figure style="float: left; width: 29%; margin: 0 1.5%; padding: 10px; background-color: #9e827c; height: 450px;">
+                    <img src="https://pequesmodainfantil.com/img/cms/ropa-de-bebe-marca-li&me.jpg" alt="Producto 2" style="width: 90%; height: 350px; border: 1px solid #ffffff; padding: 3px; background-color: #ffffff;">
+                    <figcaption style="margin-top: 10px; font-weight: bold;">$15.000</figcaption>
+                </figure>
+
+                <figure style="float: left; width: 28%; margin: 0 1.5%; padding: 10px; background-color: #9e827c; height: 450px;">
+                    <img src="https://img.kwcdn.com/product/trousers/d69d2f15w98k18-09424db1/Fancyalgo/VirtualModelMatting/0444e0c17b51816793215edbf14f351b.jpg" alt="Producto 3" style="width: 90%; height: 350px; border: 1px solid #ffffff; padding: 3px; background-color: #ffffff;">
+                    <figcaption style="margin-top: 10px; font-weight: bold;">$20.000</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <aside id="descuento" style="clear: both; margin-top: 40px; padding: 20px; background-color: #e3d2c6; border-top: 1px solid #d9c2b5; text-align: center;">
+            <blockquote>
+                Conoce nuestros descuentos:<br>
+                <div style="font-size: 30px; font-weight: bold; color: black; margin: 5px 0;">20% off</div>
+                A través de nuestras redes sociales
+            </blockquote>
+        </aside>
+    </main>
+</div>
+</body>
+</html>
