@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Registro de Nuevo Producto</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0e6dc; margin: 0; padding: 20px;">
+
+<h2 style="text-align: center; color: #4b3a36;">Registro de Nuevo Producto</h2>
+<p style="text-align: center; color: #7a6861;">Rellene el siguiente formulario para registrar un nuevo producto.</p>
+
+<form style="max-width: 800px; margin: 0 auto; background-color: #fcf8f6; padding: 25px; border: 2px solid #d9c2b5; border-radius: 10px; box-shadow: 0px 2px 8px rgba(0,0,0,0.1);">
+
+	<div style="display: flex; gap: 20px;">
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;font-weight: bold;">Nombre del producto</label><br>
+			<input type="text" placeholder="Introduzca el nombre del producto" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 6px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;font-weight: bold;">SKU del producto</label><br>
+			<input type="text" placeholder="Introduzca el SKU del producto" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 6px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+	</div>
+
+	<div style="margin-top: 35px;">
+		<label style="color: #4b3a36;font-weight: bold;">Descripción del producto</label><br>
+		<textarea placeholder="Introduzca la descripción del producto" style="width: 97%; padding: 10px; margin-top: 5px; height: 70px; font-family: sans-serif; border-radius: 8px; border: 1px solid #d9c2b5; background-color: #fff;"></textarea>
+	</div>
+
+	<div style="display: flex; gap: 20px; margin-top: 20px;">
+		<div style="flex: 1;">
+			<label style="font-weight: bold; color: #4b3a36;">Categoría del Producto</label>
+
+			<div style="border: 1px solid #d9c2b5; border-radius: 6px; padding: 8px; margin-top: 5px; background-color: #fff;">
+				<label style="display: flex; align-items: center; color: #4b3a36;">
+					<input type="radio" name="categoria" value="electronica" style="margin-right: 8px;"> Electrónica
+				</label>
+			</div>
+
+			<div style="border: 1px solid #d9c2b5; border-radius: 6px; padding: 8px; margin-top: 8px; background-color: #fff;">
+				<label style="display: flex; align-items: center; color: #4b3a36;">
+					<input type="radio" name="categoria" value="ropa" style="margin-right: 8px;"> Ropa
+				</label>
+			</div>
+
+			<div style="border: 1px solid #d9c2b5; border-radius: 6px; padding: 8px; margin-top: 8px; background-color: #fff;">
+				<label style="display: flex; align-items: center; color: #4b3a36;">
+					<input type="radio" name="categoria" value="hogar" style="margin-right: 8px;"> Hogar y Jardín
+				</label>
+			</div>
+		</div>
+
+		<div style="flex: 1;">
+			<label style="font-weight: bold; display: block; margin-bottom: 8px;color: #4b3a36;">Fabricante / Proveedor</label>
+			<select style="width: 100%; padding: 8px; margin-bottom: 10px;border-radius: 6px;border: 1px solid #d9c2b5; background-color: #fff;">
+				<option>Fabricante A</option>
+				<option>Fabricante B</option>
+				<option>Fabricante C</option>
+			</select>
+
+			<label style="font-weight: bold; display: block; margin-bottom: 8px;color: #4b3a36;">Opciones</label>
+			<div style="border: 1px solid #ccc; border-radius: 6px; padding: 8px; margin-bottom: 8px;">
+				<label style="display: flex; align-items: center;">
+					<input type="checkbox" style="margin-right: 8px;"> Producto destacado
+				</label>
+			</div>
+			<div style="border: 1px solid #ccc; border-radius: 6px; padding: 8px;">
+				<label style="display: flex; align-items: center;">
+					<input type="checkbox" style="margin-right: 8px;"> Disponible para envío
+				</label>
+			</div>
+		</div>
+	</div>
+
+	<div style="display: flex; gap: 20px; margin-top: 20px;">
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">Fecha de lanzamiento</label><br>
+			<input type="date" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 5px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">Hora de oferta especial</label><br>
+			<input type="time" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 5px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">Color principal</label><br>
+			<input type="color" style="width: 95%; padding: 2px; margin-top: 8px; border-radius: 5px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+	</div>
+
+	<div style="display: flex; gap: 20px; margin-top: 20px;">
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">Cantidad en stock</label><br>
+			<input type="number" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 5px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">Calidad del producto</label><br>
+			<input type="range" min="1" max="10" style="width: 100%; margin-top: 10px;">
+		</div>
+	</div>
+
+	<div style="display: flex; gap: 20px; margin-top: 20px;">
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">URL del producto</label><br>
+			<input type="url" placeholder="https://ejemplo.com" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 5px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">Email de soporte</label><br>
+			<input type="email" placeholder="soporte@ejemplo.com" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 5px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+		<div style="flex: 1;">
+			<label style="color: #4b3a36;">Teléfono de contacto</label><br>
+			<input type="tel" placeholder="123 456 7890" style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 5px; border: 1px solid #d9c2b5; background-color: #fff;">
+		</div>
+	</div>
+
+	<div style="display: flex; gap: 20px; margin-top: 15px;">
+		<div style="flex: 1;">
+			<label>Buscar etiquetas</label><br>
+			<input type="text" placeholder="Buscar..."
+			       style="width: 95%; padding: 8px; margin-top: 5px; border-radius: 5px; border-color: #dad0c7;">
+		</div>
+
+		<div style="flex: 1;">
+			<label style="font-weight: bold; display: block; margin-bottom: 8px;">Imágenes del producto</label>
+			<div style="border: 1px solid #ccc; border-radius: 6px; padding: 12px; background-color: #fafafa; display: flex; align-items: center; gap: 10px;">
+
+				<!-- Input de archivos oculto -->
+				<input type="file" id="archivo" accept="image/*" multiple style="display: none;">
+
+				<!-- Botón personalizado -->
+				<label for="archivo"
+				       style="background-color: #9e827c; color: white; padding: 10px 16px; border-radius: 5px; cursor: pointer; display: inline-block;">
+					Elegir imagen
+				</label>
+
+				<!-- Texto informativo -->
+				<p style="margin: 0; color: #666; font-size: 14px;">
+					Ninguna imagen seleccionada
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 25px;">
+		<button type="reset" style="background-color: #d9c2b5; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; color: #4b3a36;">Limpiar Formulario</button>
+		<button type="submit" style="background-color: #9e827c; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Registrar Producto</button>
+	</div>
+
+</form>
+
+</body>
+</html>
